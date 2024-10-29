@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="home">
+                <div class="logo"><img src="logo.svg" alt="spotify"><span>Music Player</span>
+                <img src="back.svg" alt="" class="back" style="width: 35px;">
+                </div>
+                <ul>
+                    <li><img src="home.svg" alt="home"><span>Home</span></li>
+                    <li><img src="search.svg" alt="search"><span>Search</span></li>
+                </ul>
+            </div>
+            <div class="home library">
+                <div class="head">
+                    <img src="library.svg" alt="">
+                    <h4>Your Library</h4>
+                    <!-- <img class="plus" src="plus.svg" alt=""> -->
+                </div>
+                <div class="songlist">
+                    <ul>
+
+                    </ul>
+                </div>
+                <div class="footer">
+                    <a href="https://www.spotify.com/in-en/legal/">
+                        <span>Legal</span>
+                    </a>
+
+                    <a href="https://www.spotify.com/in-en/safetyandprivacy/">
+                        <span>Safety & Privacy Center</span>
+                    </a>
+
+                    <a href="https://www.spotify.com/in-en/legal/privacy-policy/">
+                        <span>Privacy Policy</span>
+                    </a>
+
+                    <a href="https://www.spotify.com/in-en/legal/cookies-policy/">
+                        <span>Cookies</span>
+                    </a>
+
+
+                    <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">
+                        <span>About Ads</span>
+                    </a>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="header">
+                <div class="nav">
+                    <img  src="hamburgur.svg" alt="" class="hamburgur" id="#hamburger" style="width: 40px;">
+                    <img src="arrowless.svg" alt="" class="greaterlesser">
+                    <img src="arrowgreater.svg" alt="" class="greaterlesser">
+                </div>
+                <div class="buttons">
+                    <button class="signupbtn">Sign Up</button>
+                    <button class="loginbtn">Login</button>
+                </div>
+            </div>
+            <div class="playList">
+                <h2>Spotify Playlist</h2>
+                <div class="cardCont">
+
+                </div>
+            </div>
+            <div class="playbar">
+                <div class="seekbar">
+                    <div class="circle">
+
+                    </div>
+                </div>
+                <div class="abovebar">
+                    <div class="songinfo ">
+
+                    </div>
+
+                    <div class="divplay">
+                        <img id="previous" src="perevious.svg" alt="">
+                        <img id="play" src="play.svg" alt="">
+                        <img id="next" src="next.svg" alt="">
+                        
+                    </div>
+                   
+               <div class="timeandvol">
+                
+                <div class="range">
+                    <input type="range" name="volume">
+                </div>
+                <div class="volume">
+                  <img src="volume.svg" alt="">
+                 </div> 
+                    <div class="songtime ">
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
